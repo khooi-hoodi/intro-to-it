@@ -1,0 +1,11 @@
+body {
+  font-family: 'Rye', cursive;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  font-family: 'REM', sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,19 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  background-color: goldenrod;
+  border-top: solid;
+}
+
+.footer-item {
+  text-decoration: none;
+  color: black;
+  padding: 15px 50px;
+  transition: background-color 0.15s;
+}
+
+.footer-item:hover {
+  background-color: white;
+}
