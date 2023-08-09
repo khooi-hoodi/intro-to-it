@@ -90,7 +90,6 @@ nav {
     position: fixed;
     left: -100%;
     top: 80px;
-    gap: 0;
     flex-direction: column;
     background-color: goldenrod;
     width: 100%;
@@ -109,5 +108,12 @@ nav {
 
   nav.active {
     left: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 22px;
+    text-align: center;
   }
 }

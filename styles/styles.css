@@ -10,7 +10,6 @@ p {
   margin: 0;
   font-family: 'REM', sans-serif;
   font-weight: 600;
-  margin-bottom: 10px;
 }
 
 /* main section */
@@ -24,6 +23,7 @@ p {
 .introduction {
   font-size: x-large;
   margin: 0 36px;
+  padding: 15px 0;
 }
 
 .promo-img {
@@ -67,6 +67,10 @@ li {
   margin-bottom: 26px;
 }
 
+li p {
+  margin: 10px 0;
+}
+
 .book-img {
   height: 260px;
   box-shadow: 8px 8px 8px #888888;
@@ -88,6 +92,7 @@ li {
   margin: 0;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
 }
 
 iframe {
@@ -119,10 +124,28 @@ iframe {
   .introduction {
     font-size: medium;
   }
+
+  iframe {
+    width: 360px;
+    height: 203px;
+  }
 }
 
 @media (max-width: 600px) {
+  .introduction {
+    font-size: small;
+  }
+
   ul {
     grid-template-columns: 1fr;
+  }
+
+  iframe {
+    width: 200px;
+    height: 150px;
+  }
+
+  .bg3 p {
+    font-size: small;
   }
 }
