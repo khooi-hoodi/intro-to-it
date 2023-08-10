@@ -40,15 +40,6 @@
   ul {
     grid-template-columns: 1fr;
   }
-
-  iframe {
-    width: 200px;
-    height: 150px;
-  }
-
-  .bg3 p {
-    font-size: small;
-  }
 }
 
 @media (max-width: 992px) and (min-width: 769px) {
