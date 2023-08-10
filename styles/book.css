@@ -71,6 +71,7 @@ section.book {
   font-family: 'REM', sans-serif;
   font-size: larger;
   transition: opacity 0.15s;
+  color: black;
 }
 
 .shop-region button:hover {
