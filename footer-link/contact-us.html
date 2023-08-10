@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/header.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/footer.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/global.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/contact.css"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon/favicon-16x16.png"
+    />
+    <link
+      rel="manifest"
+      href="../favicon/site.webmanifest"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rye&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=REM:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Tell Us More!</title>
+  </head>
+
+  <body>
+    <header>
+      <div id="logo-container">
+        <img
+          id="logo"
+          src="../images/bookwyrm-logo.jpg"
+          alt="a brown wyrm surrounded by a mountain of books"
+        />
+        <h1>The Bookwyrm</h1>
+      </div>
+      <nav>
+        <a
+          class="nav-item"
+          href="../index.html"
+          >Home</a
+        >
+        <a
+          class="nav-item"
+          href="../players.html"
+          >Players</a
+        >
+        <a
+          class="nav-item"
+          href="../dungeon.html"
+          >Dungeon Masters</a
+        >
+      </nav>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </header>
+    <main>
+      <h2>Contact Us!</h2>
+
+      <form action="">
+        <div class="contact-purpose-container">
+          <p>What is your purpose?</p>
+          <select
+            name="contact-purpose"
+            id="contact-purpose"
+            required
+          >
+            <option
+              disabled
+              selected
+            >
+              Select an option
+            </option>
+            <option value="sell-books">I want to sell some books!</option>
+            <option value="buy-books">I want to buy some books!</option>
+          </select>
+        </div>
+        <p>
+          Your name <br />
+          <input
+            class="text-input"
+            type="text"
+            id="name"
+            name="name"
+            required
+          />
+        </p>
+        <p>
+          Your Email <br />
+          <input
+            class="text-input"
+            type="text"
+            id="email"
+            name="email"
+            required
+          />
+        </p>
+        <p>
+          Phone Number <br />
+          <input
+            class="text-input"
+            type="text"
+            id="phone"
+            name="phone"
+            required
+          />
+        </p>
+        <fieldset>
+          <p>How would you like to be contacted?</p>
+          <label for="email"
+            ><input
+              type="checkbox"
+              name="contact-preference[]"
+              value="email"
+            />By Email</label
+          >
+          <label for="phone"
+            ><input
+              type="checkbox"
+              name="contact-preference[]"
+              value="phone"
+            />
+            By Phone</label
+          >
+        </fieldset>
+        <fieldset>
+          <p>Do you want to receive our Weekly Newsletter?</p>
+          <label for="true"
+            ><input
+              type="radio"
+              name="newsletter"
+              value="yes"
+              checked
+            />Yes</label
+          >
+          <label for="false"
+            ><input
+              type="radio"
+              name="newsletter"
+              value="no"
+            />No</label
+          >
+        </fieldset>
+        <p>
+          Anything else you want to add? <br />
+          <textarea name="more-notes"></textarea>
+        </p>
+        <div><button type="submit">Submit</button><button type="reset">Reset</button></div>
+      </form>
+    </main>
+    <footer>
+      <a
+        href="./about.html"
+        class="footer-item"
+        >About Us</a
+      ><a
+        href="./policy.html"
+        class="footer-item"
+        >Policy</a
+      ><a
+        href="./terms.html"
+        class="footer-item"
+        >Terms</a
+      ><a
+        href="./copyright.html"
+        class="footer-item"
+        >Copyright</a
+      ><a
+        href="./contact-us.html"
+        class="footer-item"
+        >Contact Us</a
+      >
+    </footer>
+    <script src="../app.js"></script>
+  </body>
+</html>
