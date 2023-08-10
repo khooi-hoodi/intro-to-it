@@ -3,6 +3,7 @@
   margin: 0;
   text-decoration: none;
   box-sizing: border-box;
+  cursor: context-menu;
 }
 
 body {
@@ -16,4 +17,9 @@ p {
   font-family: 'REM', sans-serif;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+a {
+  color: black;
+  cursor: pointer;
 }
