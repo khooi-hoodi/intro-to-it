@@ -12,15 +12,15 @@
     />
     <link
       rel="stylesheet"
+      href="../styles/book.css"
+    />
+    <link
+      rel="stylesheet"
       href="../styles/footer.css"
     />
     <link
       rel="stylesheet"
       href="../styles/global.css"
-    />
-    <link
-      rel="stylesheet"
-      href="../styles/footer-link.css"
     />
     <link
       rel="apple-touch-icon"
@@ -69,7 +69,7 @@
       href="https://fonts.googleapis.com/css2?family=REM:wght@400;600&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>Mordenkainen Presents: Monsters of the Multiverse</title>
   </head>
   <body>
     <header>
@@ -106,32 +106,67 @@
     </header>
 
     <main>
-      <p>
-        There is no US, unfortunately. This is a mock bookstore website created by Khoi Tran as part
-        of his assignment at RMIT Hanoi. This is arguably the first functioning website that he has
-        created, and he is very excited that the website has come to fruition.
-      </p>
+      <ul class="breadcrumb">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../dungeon.html">Dungeon Masters</a></li>
+        <li>Mordenkainen Presents: Monsters of the Multiverse</li>
+      </ul>
+
+      <section class="book">
+        <div class="book-details">
+          <img
+            src="../images/MotM/cover.jpg"
+            alt=""
+            class="main-book-img"
+          />
+          <div class="additional-book-img-container">
+            <img
+              src="../images/players-handbook/back-cover.jpg"
+              alt=""
+              class="additional-book-img"
+            /><img
+              src="../images/players-handbook/table1.jpg"
+              alt=""
+              class="additional-book-img"
+            /><img
+              src="../images/players-handbook/table2.jpg"
+              alt=""
+              class="additional-book-img"
+            />
+          </div>
+          <p class="book-description">
+            The Player's Handbook is a MUST HAVE for every Dungeons & Dragons player! This book
+            contains all the necessary rules and regulations in order to play a fair and most
+            importantly, fun game of D&D!
+          </p>
+        </div>
+        <div class="shop-region">
+          <p class="book-name">Player's Handbook</p>
+          <p>&dollar;26.10</p>
+          <button>Add to Cart</button>
+        </div>
+      </section>
     </main>
 
     <footer>
       <a
-        href="./about.html"
+        href="../footer-link/about.html"
         class="footer-item"
         >About Us</a
       ><a
-        href="./policy.html"
+        href="../footer-link/policy.html"
         class="footer-item"
         >Policy</a
       ><a
-        href="./terms.html"
+        href="../footer-link/terms.html"
         class="footer-item"
         >Terms</a
       ><a
-        href="./copyright.html"
+        href="../footer-link/copyright.html"
         class="footer-item"
         >Copyright</a
       ><a
-        href="./contact-us.html"
+        href="../footer-link/contact-us.html"
         class="footer-item"
         >Contact Us</a
       >
