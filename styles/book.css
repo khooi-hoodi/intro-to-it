@@ -84,7 +84,8 @@ section.book {
 }
 
 .book-name {
-  margin-bottom: 36px;
+  font-size: xx-large;
+  margin: 36px 0;
 }
 
 .shop-region p {
@@ -92,7 +93,6 @@ section.book {
 }
 
 .book-description {
-  margin-top: 36px;
   width: 550px;
   font-size: larger;
 }
